@@ -1,0 +1,7 @@
+var svc = new Service({
+  name:'Hello World',
+  description: 'The nodejs.org example web server.',
+  script: 'C:\\path\\to\\helloworld.js',
+  wait: 2,
+  grow: .5
+});
